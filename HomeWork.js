@@ -66,7 +66,6 @@
 
 // <!-----------------------TASK 3  ------------------------------>
 
-// try {
 //     const users = {
 //       1: {
 //         name: 'Roman',
@@ -110,11 +109,9 @@
 //       const user = users[key];
 //          console.log(key + ") name:"  + user.name);
 //          console.log("last name:"  + user.lastName);
-//          console.log("role:"  + user.otherData.role)
+//          console.log("role:"  + user.otherData)
 //     })
-//     } catch(e) { 
-//       console.log("If there is no property, please make sure all data is entered correctly");
-// }
+//  
 
 // <!-----------------------TASK 4  ------------------------------>
 
