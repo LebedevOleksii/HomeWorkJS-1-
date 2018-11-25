@@ -1,8 +1,8 @@
 
 // <!-----------------------TASK 1.1  ------------------------------>
 
-var USD = prompt('Введіть сумму в доларах','');
-var UAH = prompt('Введіть сумму в гивнях','');
+let USD = prompt('Введіть сумму в доларах','');
+let UAH = prompt('Введіть сумму в гивнях','');
 function conversion(){
     if (USD > 0){
     sumUAH= USD * 26;
@@ -40,7 +40,7 @@ minMax([1,23,-5,11])
 
 // <!-----------------------TASK 1.3  ------------------------------>
 
-var arr = [1,4,2];
+const arr = [1,4,2];
 function arithmeticMean(arr){
   let average = 0;
   for (i=0; i < arr.length; i++){
@@ -51,8 +51,8 @@ function arithmeticMean(arr){
 arithmeticMean(arr)
 // _______________________________________________________________________
 
-var arr=[1,4,2];
-var average= arr.reduce(function(item, current){
+const arr=[1,4,2];
+const average= arr.reduce(function(item, current){
   return item +current/arr.length;
 },0)
 
